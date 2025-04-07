@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgb(189, 161, 199);
+    background: url("https://t3.ftcdn.net/jpg/02/60/12/88/360_F_260128861_Q2ttKHoVw2VrmvItxyCVBnEyM1852MoJ.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    color: white;
+}
+input{
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    color: white;
+}
+
+button {
+    background-color: #38095c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #510d99;
+}
+
+.recipe {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.recipe img {
+    width: 200px;
+    border-radius: 5px;
+}
